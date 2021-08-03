@@ -30,21 +30,21 @@ document.addEventListener("click",()=>{
 })
 
 
-// zet de functie om naar een arrow functie
+// Opd A ..zet de functie om naar een arrow functie
 const ikRockArrowFunctions = function () {
     console.log("Joe, ik rock de arrow functions!");
   };
   
   ikRockArrowFunctions()
   
-//whit Arrow
+//opd A
   const ikRockArrowFunctions = () => {
     console.log("Joe, ik rock functions!");
   };
   
   ikRockArrowFunctions()
   
-
+//opd B
 const fivePlusSeven = function () {
     return 5 + 7
   };
@@ -55,14 +55,14 @@ const fivePlusSeven = function () {
   const fivePlusSeven = () => 5 + 7;
   fivePlusSeven();
  
-  // Opdracht
+  // Opd C
   const myFunction = (a, b) => a + b;
   
-  // Opdracht  
+  // Opd D
   const addFive = a => a + 5;
   
   
-  // Opdracht 
+  // Opd E
   const createObject = () => ({ greeting: "hoi" });
 
  
